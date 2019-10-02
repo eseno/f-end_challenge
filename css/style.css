@@ -1,0 +1,80 @@
+body {
+  background-color: #EFEFF5;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+  letter-spacing: -0.0041em;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.navigation-bar{
+  background-color: #F7F7F7;
+  box-shadow: 0px 5px 10px #979797;
+}
+
+.back-button{
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.text{
+  text-align: left;
+  line-height: 20px;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.0145em;
+  line-height: 40.6px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: -0.0008em;
+  line-height: 16px;
+  padding-left: 15px;
+  padding-top: 20px;
+  color: #979797;
+}
+
+
+.frequency, li, .singular {
+  line-height: 28px;
+  background-color: #FFFFFF;
+}
+
+.group, .singular {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bus-numbers{
+  background-color: #DC0808;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.0024em;
+  padding: 2px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.bus-route{
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.text-time{
+  padding-left: 60px;
+  display: inline-block;
+}
