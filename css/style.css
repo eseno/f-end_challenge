@@ -52,8 +52,8 @@ h2{
 }
 
 .group, .singular {
-  padding-left: 5px;
-  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .bus-numbers{
@@ -63,18 +63,84 @@ h2{
   line-height: 24px;
   letter-spacing: -0.0024em;
   padding: 2px;
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  border-radius: 12px;
   display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .bus-route{
-  padding-left: 40px;
+  width: 160px;
   display: inline-block;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.0041em;
 }
 
+
 .text-time{
-  padding-left: 60px;
+  width: 45px;
   display: inline-block;
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.frequency{
+  color: rgba(0,0,0,0.60);
+  line-height: 22px;
+  padding-left: 15px;
+  margin-top: 2px;
+}
+
+#high{
+  color: #DC0808;
+}
+
+#moderate{
+  color: #FF9500;
+}
+
+#high, #moderate{
+  font-weight: 600;
+}
+
+.tab-bar{
+  background-color: #F7F7F7;
+  box-shadow: 5px 0px 10px #979797;
+  margin-top: 20px;
+}
+
+.tab-icon{
+  padding-left: 55px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+img{
+  padding-right: 52px;
+}
+
+.tab-icon-title{
+  font-size: 12px;
+  font-weight: lighter;
+  color: #A1A1A1;
+  line-height: 14px;
+  letter-spacing: 0.0145em;
+  padding-right: 20px;
+}
+
+.tab-icon-titles{
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+#one{
+  color: #DA2119;
+}
+
+#three {
+  padding-left: 10px;
 }
