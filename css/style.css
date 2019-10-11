@@ -9,6 +9,12 @@ body {
   box-sizing: border-box;
 }
 
+img [src="status-bar-pic"]{
+  display: inline-block;
+  position: sticky;
+  top: 0px;
+}
+
 .navigation-bar{
   background-color: #F7F7F7;
   box-shadow: 0px 5px 10px #979797;
@@ -95,6 +101,7 @@ h2{
   margin-top: 2px;
 }
 
+
 #high{
   color: #DC0808;
 }
@@ -111,6 +118,8 @@ h2{
   background-color: #F7F7F7;
   box-shadow: 5px 0px 10px #979797;
   margin-top: 20px;
+  position: sticky;
+  bottom: 0;
 }
 
 .tab-icon{
