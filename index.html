@@ -7,102 +7,121 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-      <img src="Icons/Base.png" alt="status-bar-pic"/>
-    <div class="navigation-bar">
-      <div class= "back-button">
-        <span class="arrow">&#60;</span>
+  <main>
+      <img class="status-bar" src="Icons/Base.png" alt="status-bar-pic"/>
+    <header>
+          <img class="back-arrow" src="Icons/left-arrow.png" alt="back-button-arrow"/>
         <span class="text">Map</span>
-      </div>
     <h1>Washington & State</h1>
-    </div>
+  </header>
       <h2>Eastbound</h2>
-        <div class="group">
+        <section class="group">
           <ul>
             <li>
               <span class="bus-numbers">60</span>
               <span class="bus-route">Randolph/ Harbor Dr</span>
                 <span class="text-time" id="high">due</span>
-                <span class="arrow-time">&#62;</span>
+                <span class="arrow-time">
+                  <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+                </span>
                 <div class="frequency">in 20, 40 min</div>
             </li>
             <li>
               <span class="bus-numbers">124</span>
               <span class="bus-route">Navy Pier</span>
-              <span class="text-time" id="moderate">1 min</span>
-              <span class="arrow-time">&#62;</span>
+              <span class="text-time" id="moderate1">1 min</span>
+              <span class="arrow-time">
+                <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+              </span>
               <div class="frequency">in 11, 21 min</div>
             </li>
           </ul>
-        </div>
+        </section>
 
     <h2>Northbound</h2>
-      <div class="singular">
+      <section class="singular">
         <span class="bus-numbers">151</span>
         <span class="bus-route">Devon/ Clark</span>
-        <span class="text-time" id="moderate">3 min</span>
-        <span class="arrow-time">&#62;</span>
+        <span class="text-time" id="moderate2">3 min</span>
+        <span class="arrow-time">
+          <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+        </span>
         <div class="frequency">in 19, 35 min</div>
-      </div>
+      </section>
+
     <h2>Southbound</h2>
-    <div class="group">
+    <section class="group">
       <ul>
         <li>
           <span class="bus-numbers">J14</span>
           <span class="bus-route">103rd/ Stony Island</span>
           <span class="text-time">6 min</span>
-          <span class="arrow-time">&#62;</span>
+          <span class="arrow-time">
+            <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+          </span>
           <div class="frequency">in 21, 36 min</div>
         </li>
         <li>
           <span class="bus-numbers">124</span>
           <span class="bus-route">Navy Pier</span>
           <span class="text-time">7 min</span>
-          <span class="arrow-time">&#62;</span>
+          <span class="arrow-time">
+            <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+          </span>
           <div class="frequency">in 17, 37 min</div>
         </li>
       </ul>
-    </div>
+    </section>
+
     <h2>Reroute</h2>
-      <div class="singular">
+      <section class="singular">
         <span class="bus-numbers">6x</span>
         <span class="bus-route" id="long-route-name">Jackson Park Express</span>
         <span class="text-time">N/A</span>
-        <span class="arrow-time">&#62;</span>
+        <span class="arrow-time">
+          <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+        </span>
         <div class="frequency">N/A</div>
-      </div>
+      </section>
+
     <h2>Out of Service</h2>
-    <div class="group">
+    <section class="group">
       <ul>
         <li>
           <span class="bus-numbers">4</span>
           <span class="bus-route">Cottage Grove</span>
           <span class="text-time">N/A</span>
-          <span class="arrow-time">&#62;</span>
+          <span class="arrow-time">
+            <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+          </span>
           <div class="frequency">at 12:10am</div>
         </li>
         <li>
           <span class="bus-numbers">20</span>
           <span class="bus-route">Madison</span>
           <span class="text-time">N/A</span>
-          <span class="arrow-time">&#62;</span>
+          <span class="arrow-time">
+            <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+          </span>
           <div class="frequency">at 12:10am</div>
         </li>
         <li>
           <span class="bus-numbers">157</span>
           <span class="bus-route">Streeterville/ Taylor</span>
           <span class="text-time">N/A</span>
-          <span class="arrow-time">&#62;</span>
+          <span class="arrow-time">
+            <img class="details-arrow" src="Icons/right-arrow.png" alt="details-button-arrow"/>
+          </span>
           <div class="frequency">at 6:00am</div>
         </li>
       </ul>
-    </div>
-    <div class= "tab-bar">
+    </section>
+    <footer>
       <div class="tab-icon">
-        <img src="Icons/location.png" alt="bus-stops"/>
-        <img src="Icons/star.png" alt="my-stops"/>
-        <img src="Icons/alerts.png" alt="alerts"/>
-        <img src="Icons/journey.png" alt="journey-planner"/>
+        <img class="tab-icon-pic-1" src="Icons/location.png" alt="bus-stops"/>
+        <img class="tab-icon-pic-2" src="Icons/star.png" alt="my-stops"/>
+        <img class="tab-icon-pic-3" src="Icons/alerts.png" alt="alerts"/>
+        <img class="tab-icon-pic-4" src="Icons/journey.png" alt="journey-planner"/>
       </div>
       <div class="tab-icon-titles">
         <span class="tab-icon-title" id="one">Bus Stops</span>
@@ -110,6 +129,6 @@
         <span class="tab-icon-title" id="three">Alerts</span>
         <span class="tab-icon-title" id="four">Journey Planner</span>
       </div>
-    </div>
-  </body>
+    </footer>
+  </main>
 </html>
